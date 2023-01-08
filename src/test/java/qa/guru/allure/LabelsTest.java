@@ -15,7 +15,7 @@ public class LabelsTest {
     @Test
     @Feature("Issue в репозитории")
     @Story("Создание Issue")
-    @Owner("eroshenkoam")
+    @Owner("dmitrii-slayer")
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Testing", url = "https://testing.github.com")
     @DisplayName("Создание Issue для авторизованного пользователя")
@@ -29,7 +29,7 @@ public class LabelsTest {
         );
         Allure.feature("Issue в репозитории");
         Allure.story("Создание Issue");
-        Allure.label("owner", "eroshenkoam");
+        Allure.label("owner", "dmitrii-slayer");
         Allure.label("severity", SeverityLevel.CRITICAL.value());
         Allure.link("Testing", "https://testing.github.com");
     }

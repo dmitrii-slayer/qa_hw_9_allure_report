@@ -20,10 +20,10 @@ public class SelenideTest {
         open("https://github.com");
 
         $(".header-search-input").click();
-        $(".header-search-input").sendKeys("eroshenkoam/allure-example");
+        $(".header-search-input").sendKeys("dmitrii-slayer/qa_hw_9_allure_report");
         $(".header-search-input").submit();
 
-        $(linkText("eroshenkoam/allure-example")).click();
+        $(linkText("dmitrii-slayer/qa_hw_9_allure_report")).click();
         $("#issues-tab").click();
         $(withText("#80")).should(Condition.exist);
     }

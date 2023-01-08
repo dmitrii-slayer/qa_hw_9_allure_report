@@ -14,7 +14,7 @@ import static org.openqa.selenium.By.linkText;
 
 public class StepsTest {
 
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
+    private static final String REPOSITORY = "dmitrii-slayer/qa_hw_9_allure_report";
     private static final int ISSUE = 80;
 
     @Test
